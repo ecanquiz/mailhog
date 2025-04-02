@@ -1,0 +1,2 @@
+# mailhog
+Mailhog
