@@ -6,4 +6,10 @@ services:
     ports:
       - 1025:1025
       - 8025:8025
-    # restart: always
+    restart: always
+    networks:
+      - app-network
+
+networks:
+  app-network:
+    external: true
